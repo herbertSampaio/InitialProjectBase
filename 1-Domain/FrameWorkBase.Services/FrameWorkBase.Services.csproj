@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2-Infra\FrameWorkBase.Infra.Validation\FrameWorkBase.Infra.Validation.csproj" />
+    <ProjectReference Include="..\..\2-Infra\FrameWorkBase.Infra\FrameWorkBase.Infra.csproj" />
+    <ProjectReference Include="..\..\3-Utilitario\FrameWorkBase.Utilitario\FrameWorkBase.Utilitario.csproj" />
+    <ProjectReference Include="..\FrameWorkBase.Domain\FrameWorkBase.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
